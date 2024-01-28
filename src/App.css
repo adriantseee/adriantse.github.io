@@ -1,6 +1,21 @@
-#root{
+body{
   width: 100vw;
   height: 100vh;
-  background-color:  #d9afd9;
-  background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
+  background-color:  black;
+}
+
+@font-face {
+  font-family: Futura;
+  src: url('src/fonts/Futura.woff');
+}
+
+@font-face {
+  font-family: Futura Light;
+  src: url('src/fonts/Futura Light.woff');
+}
+
+html {
+  letter-spacing: 10px;
+  font-family: Futura;
+  color: white;
 }
