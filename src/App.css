@@ -1,7 +1,38 @@
-body{
+html {
   width: 100vw;
   height: 100vh;
-  background-color:  black;
+  background-color: black;
+  letter-spacing: 0px;
+  font-family: Futura Light;
+  color: white;
+}
+
+.about{
+  background: transparent;
+  border: none;
+  margin-left: 3em;
+}
+.model{
+  height: 80vh;
+}
+
+.title{
+  display: flex; /* Add this line */
+  justify-content: center; /* Optional: Center align the items horizontally */
+  align-items: center;
+}
+
+.additionalinfo{
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  margin-top: -9em;
+  margin-left: -20em;
+}
+
+#pfp{
+  height: 35em;
+  width: auto;
 }
 
 @font-face {
@@ -14,8 +45,20 @@ body{
   src: url('src/fonts/Futura Light.woff');
 }
 
-html {
-  letter-spacing: 10px;
+.name {
   font-family: Futura;
-  color: white;
+  letter-spacing: 8px;
+  font-size: 40px;
+  line-height: normal;
+}
+
+#infotitle{
+  font-size: 40px;
+  font-family: Futura;
+}
+
+.activities{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
 }
