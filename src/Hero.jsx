@@ -23,7 +23,7 @@ export const Hero = () => {
                     />
                 </div>
                 <div className = "model">
-                    <Spline scene="https://prod.spline.design/gXDeJ3XTDyB2SQA8/scene.splinecode" />
+                    <Spline id="robot" scene="https://prod.spline.design/gXDeJ3XTDyB2SQA8/scene.splinecode" />
                 </div>
             </div>
         </div>

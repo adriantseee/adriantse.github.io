@@ -20,9 +20,8 @@ html {
   margin-left: 3em;
 }
 .model{
-  min-width: 250px;
-  max-width: 330px;
   height: 80vh;
+  min-width: 600px;
 }
 
 .title{
@@ -116,4 +115,12 @@ html {
   justify-content: center;
   height: 200px;
   max-width: 360px;
+}
+
+#timeline{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap:10px;
+  justify-content: center;
 }
