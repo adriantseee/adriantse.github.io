@@ -5,6 +5,13 @@ html {
   letter-spacing: 0px;
   font-family: Futura Light;
   color: white;
+  overflow-x: hidden;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 .about{
@@ -13,16 +20,19 @@ html {
   margin-left: 3em;
 }
 .model{
+  min-width: 250px;
+  max-width: 330px;
   height: 80vh;
 }
 
 .title{
-  display: flex; /* Add this line */
-  justify-content: center; /* Optional: Center align the items horizontally */
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 
 .additionalinfo{
+  min-width: 500px;
   display: flex;
   justify-content: center; 
   align-items: center;
@@ -33,6 +43,13 @@ html {
 #pfp{
   height: 35em;
   width: auto;
+}
+
+#pfpcontainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100px;
 }
 
 @font-face {
@@ -60,5 +77,43 @@ html {
 .activities{
   display: flex;
   flex-direction: column;
+  column-gap: 1px;
   align-items: left;
+  font-size: 24px;
+}
+
+.skill{
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.1);
+  height: 260px;
+  width: 300px;
+  border-radius: 10px;
+  border: 1px solid black 0.1;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: Futura;
+  font-size: 24px;
+}
+
+#skills{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap:10px;
+  justify-content: center;
+}
+
+.skilllogo{
+  height: 160px;
+  width: auto;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 200px;
+  max-width: 360px;
 }
