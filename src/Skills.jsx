@@ -1,5 +1,16 @@
 export const Skills = () => {
-    const skills  = ["C++", "Python", "C#", "Swift", "Fusion 360", "Django", "Pandas", "BeautifulSoup", "TensorFlow", "Java"]
+    const skills  = [
+        {skill: "C++", imgName: "cpp"}, 
+        {skill: "Python", imgName: "python"},
+        {skill: "C#", imgName: "csharp"}, 
+        {skill: "Swift", imgName: "swift"},
+        {skill: "Fusion 360", imgName: "f360"}, 
+        {skill: "Django", imgName: "dj"},
+        {skill: "Pandas", imgName: "pandas"},
+        {skill: "BeautifulSoup", imgName: "bs4"}, 
+        {skill: "TensorFlow", imgName: "tf"},
+        {skill: "Java", imgName: "java"},
+    ]
     return(
         <div>
             <h2>Skills</h2>
@@ -10,9 +21,9 @@ export const Skills = () => {
                         return(
                             <div className = "skill">
                                 <div className = "container">
-                                    <img class="skilllogo" src = {`src/assets/${skill}.png`}/>
+                                    <img class="skilllogo" src = {`src/assets/${skill.imgName}.png`}/>
                                 </div>
-                                <p>{skill}</p>
+                                <p>{skill.skill}</p>
                             </div>
                         );
                     })}

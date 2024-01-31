@@ -1,33 +1,73 @@
 import Spline from '@splinetool/react-spline';
-import {motion, useTransform, useScroll} from "framer-motion";
-import { useRef } from 'react';
-import React, { useState, useEffect} from 'react';
+import { VerticalTimeline, VerticalTimelineElement} from 'react-vertical-timeline-component';
+import 'react-vertical-timeline-component/style.min.css';
 
 export const Timeline = () => {
-    {/*more to be added, not done with timeline yet */}
-    const cards = [
-        {date: "June 2016", desc: "First time ever coding"},
-        {date: "2018", desc: "First ever hackathon. As expected of a bunch of middle schoolers, we didn't get a finished product out in time. However, we did learn a lot about coding and teamwork."},
-        {date: "August 2021", desc: "Entered High School as a freshmen, enrolling into two semester-long coding courses"},
-        {date: "August 2022", desc: "Returning to High School as a sophomore, enrolling into AP CS A"},
-        {date: "November 2023", desc: "Began Ebay Scraper Project"},
-    ]
     return (
-        <div>        
-            <h2>My Coding Journey</h2>
-            <div id="timeline">
-            <div id="cards">
-                {cards.map((card, index) => (
-                    <div className='card'>
-                        <p>{card.date}</p>
-                        <p className='cardtext'>{card.desc}</p>
+        <div>
+        <h2>My Coding Journey</h2>    
+        <VerticalTimeline>
+            <VerticalTimelineElement
+                class = "element"
+                contentStyle={{ background: 'white', color: '#fff' }}
+                contentArrowStyle={{ borderRight: '7px solid  white' }}
+                icon = {
+                    <div>
+                        <img src = "src/assets/points.png" style={{width: "60px"}}/>
                     </div>
-                ))}
+            }
+            iconStyle={{background: "#000", borderThickness: "0px"}}
+            >
+                <h1 className="cardtitle">Introduction to Coding</h1>
+                <h3 className="carddescription">{"test description"}</h3>
+                <p className="date">June 2016</p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+            class = "element"
+            contentStyle={{ background: 'white', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  white' }}
+            icon = {
+                <div>
+                    <img src = "src/assets/points.png" style={{width: "60px"}}/>
                 </div>
-                <div id="floating">
-                <Spline scene='https://prod.spline.design/4dGC-FoT8s301dfz/scene.splinecode'/>
+            }
+            iconStyle={{background: "#000", borderThickness: "0px"}}
+            >
+                <h1 className="cardtitle">Title</h1>
+                <h3 className="carddescription">{"test description"}</h3>
+                <p className="date">2018</p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+            class = "element"
+            contentStyle={{ background: 'white', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  white' }}
+            icon = {
+                <div>
+                    <img src = "src/assets/points.png" style={{width: "60px"}}/>
                 </div>
-            </div>
+            }
+            iconStyle={{background: "#000", borderThickness: "0px"}}
+            >
+                <h1 className="cardtitle">Title</h1>
+                <h3 className="carddescription">{"test description"}</h3>
+                <p className="date">2019</p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+            class = "element"
+            contentStyle={{ background: 'white', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  white' }}
+            icon = {
+                <div>
+                    <img src = "src/assets/points.png" style={{width: "60px"}}/>
+                </div>
+            }
+            iconStyle={{background: "#000", borderThickness: "0px"}}
+            >
+                <h1 className="cardtitle">Title</h1>
+                <h3 className="carddescription">{"test description"}</h3>
+                <p className="date">2021</p>
+            </VerticalTimelineElement>
+        </VerticalTimeline>    
         </div>
     );
 }

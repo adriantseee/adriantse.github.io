@@ -1,4 +1,3 @@
-import {Row, Col} from 'react-bootstrap';
 import Spline from '@splinetool/react-spline';
 import {TypeAnimation} from 'react-type-animation'
 

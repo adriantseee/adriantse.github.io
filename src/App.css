@@ -117,10 +117,30 @@ html {
   max-width: 360px;
 }
 
-#timeline{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap:10px;
-  justify-content: center;
+#floating{
+  max-width: 300px;
+  width: 300px;
+  min-width: 300px;
+  height: auto;
+}
+
+.cardtitle{
+  font-family: Futura;
+  font-size: 36px;
+  color: black;
+  margin-top: 1em;
+}
+
+.carddescription{
+  font-family: Futura;
+  font-size: 24px;
+  color: black;
+  margin-top: 1em;
+}
+
+.date{
+  font-family: Futura;
+  font-size: 12px;
+  color: black;
+  margin-top: 1em;
 }
