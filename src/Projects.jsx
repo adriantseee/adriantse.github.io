@@ -1,7 +1,8 @@
 export const Projects = () => {    
     return(
         <div>
-            <h2>Projects</h2>
+            <h1 style={{fontFamily:"Futura"}}>Projects</h1>
+            <h2>I'm always creating new things and experimenting with new tools! Here are a few of my most recent projects</h2>
             <div className = "project">
                 <div className = "project-info">
                     <div className = "project-important-info">

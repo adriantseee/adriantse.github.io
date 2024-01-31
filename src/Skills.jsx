@@ -12,10 +12,10 @@ export const Skills = () => {
         {skill: "Java", imgName: "java"},
     ]
     return(
-        <div>
-            <h2>Skills</h2>
-            <p>I'm always learning, but here are some of the skills that I've picked up along the way!</p>
-            <div id = "skillswrapper">
+        <div id = "skills-wrapper">
+            <h1 style={{fontFamily: "Futura"}}>Skills</h1>
+            <h2>I'm always learning, but here are some of the skills that I've picked up along the way</h2>
+            <div>
                 <div id = "skills">
                     {skills.map(skill => {
                         return(

@@ -5,15 +5,16 @@ import 'react-vertical-timeline-component/style.min.css';
 export const Timeline = () => {
     return (
         <div>
-        <h2>My Coding Journey</h2>    
+        <h1 style={{fontFamily: "Futura"}}>My Coding Journey</h1> 
+        <h2>Follow along my journey of learning</h2>
         <VerticalTimeline>
             <VerticalTimelineElement
                 class = "element"
                 contentStyle={{ background: 'white', color: '#fff' }}
                 contentArrowStyle={{ borderRight: '7px solid  white' }}
                 icon = {
-                    <div>
-                        <h2 style={{fontFamily:"Futura"}}>{"</>"}</h2>
+                    <div className = "flex justify-center items-center w-full h-full">
+                        <img style={{width: "60px"}} className = "object-contain" src = "src/assets/points.png"/>
                     </div>
             }
             iconStyle={{background: "#000", borderThickness: "0px"}}
@@ -27,8 +28,8 @@ export const Timeline = () => {
             contentStyle={{ background: 'white', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
             icon = {
-                <div>
-                    <h2 style={{fontFamily:"Futura"}}>{"</>"}</h2>
+                <div className = "flex justify-center items-center w-full h-full">
+                    <img style={{width: "60px"}} className = "object-contain" src = "src/assets/points.png"/>
                 </div>
             }
             iconStyle={{background: "#000", borderThickness: "0px"}}
@@ -42,8 +43,8 @@ export const Timeline = () => {
             contentStyle={{ background: 'white', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
             icon = {
-                <div>
-                    <h2 style={{fontFamily:"Futura"}}>{"</>"}</h2>
+                <div className = "flex justify-center items-center w-full h-full">
+                    <img style={{width: "60px"}} className = "object-contain" src = "src/assets/points.png"/>
                 </div>
             }
             iconStyle={{background: "#000", borderThickness: "0px"}}
@@ -57,8 +58,8 @@ export const Timeline = () => {
             contentStyle={{ background: 'white', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
             icon = {
-                <div>
-                    <h2 style={{fontFamily:"Futura"}}>{"</>"}</h2>
+                <div className = "flex justify-center items-center w-full h-full">
+                    <img style={{width: "60px"}} className = "object-contain" src = "src/assets/points.png"/>
                 </div>
             }
             iconStyle={{background: "#000", borderThickness: "0px"}}
