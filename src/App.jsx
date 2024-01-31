@@ -3,6 +3,8 @@ import { Hero } from './Hero.jsx'
 import { About } from './About.jsx'
 import {Skills} from './Skills.jsx'
 import { Timeline } from './Timeline.jsx'
+import { Projects } from './Projects.jsx'
+import { Contact } from './Contact.jsx'
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
     <About />
     <Skills />
     <Timeline />
+    <Projects />
+    <Contact />
     </>
   )
 }

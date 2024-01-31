@@ -144,3 +144,80 @@ html {
   color: black;
   margin-top: 1em;
 }
+
+.project{
+  background-color: white;
+  width: 720px;
+  height: auto;
+  float: left;
+  clear: both;
+  margin: 50px 50px;
+  border-radius: 10px;
+}
+
+.project:nth-of-type(2n){
+  float: right;
+  margin-right: 50px;
+}
+
+.project-info{
+  color: black; 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1em;
+}
+
+.project-made-with{
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: baseline;
+  align-items: center;
+}
+
+.project-important-info{
+  min-width: 200px;
+  max-width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: baseline;
+  white-space: nowrap;
+}
+
+.project-description{
+  padding-left: 30px;
+  width: 100%;
+  color: black;
+}
+
+.project-name{
+  padding-left: 30px;
+  min-width: 180px;
+}
+
+.project-date{
+  padding-left: 30px;
+}
+
+.made-with-skill{
+  display: flex;
+  padding-right: 30px;
+}
+
+.project-image-container{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.project-image{
+  margin-top: 10%;
+  max-width: 80%;
+  max-height: 80%;
+  overflow: hidden;
+  margin-bottom: 10%;
+}

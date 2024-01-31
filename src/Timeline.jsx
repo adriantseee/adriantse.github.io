@@ -13,7 +13,7 @@ export const Timeline = () => {
                 contentArrowStyle={{ borderRight: '7px solid  white' }}
                 icon = {
                     <div>
-                        <img src = "src/assets/points.png" style={{width: "60px"}}/>
+                        <h2 style={{fontFamily:"Futura"}}>{"</>"}</h2>
                     </div>
             }
             iconStyle={{background: "#000", borderThickness: "0px"}}
@@ -28,7 +28,7 @@ export const Timeline = () => {
             contentArrowStyle={{ borderRight: '7px solid  white' }}
             icon = {
                 <div>
-                    <img src = "src/assets/points.png" style={{width: "60px"}}/>
+                    <h2 style={{fontFamily:"Futura"}}>{"</>"}</h2>
                 </div>
             }
             iconStyle={{background: "#000", borderThickness: "0px"}}
@@ -43,7 +43,7 @@ export const Timeline = () => {
             contentArrowStyle={{ borderRight: '7px solid  white' }}
             icon = {
                 <div>
-                    <img src = "src/assets/points.png" style={{width: "60px"}}/>
+                    <h2 style={{fontFamily:"Futura"}}>{"</>"}</h2>
                 </div>
             }
             iconStyle={{background: "#000", borderThickness: "0px"}}
@@ -58,7 +58,7 @@ export const Timeline = () => {
             contentArrowStyle={{ borderRight: '7px solid  white' }}
             icon = {
                 <div>
-                    <img src = "src/assets/points.png" style={{width: "60px"}}/>
+                    <h2 style={{fontFamily:"Futura"}}>{"</>"}</h2>
                 </div>
             }
             iconStyle={{background: "#000", borderThickness: "0px"}}
