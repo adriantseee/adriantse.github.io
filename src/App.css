@@ -1,3 +1,11 @@
+hr {
+  border: 0;
+  clear:both;
+  width: 96%;               
+  background-color:white;
+  height: 1px;
+}
+
 html {
   width: 100vw;
   height: 100vh;
@@ -85,51 +93,50 @@ html {
   font-size: 24px;
 }
 
-.skill{
-  display: flex;
-  flex-direction: column;
-  background-color: rgba(255, 255, 255, 0.1);
-  height: 260px;
-  width: 300px;
-  border-radius: 10px;
-  border: 1px solid black 0.1;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-family: Futura;
-  font-size: 24px;
-}
-
 #skills-wrapper{
-  margin-top: -100px;
-}
-
-#skills{
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  gap:10px;
-  justify-content: center;
+  justify-content: space-between;
+  margin: -100px 10% 40px 10%;
 }
 
-.skilllogo{
-  height: 160px;
-  width: auto;
-}
-
-.container{
+#menu-skills{
+  min-width: 300px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  height: 200px;
-  max-width: 360px;
 }
 
-#floating{
-  max-width: 300px;
-  width: 300px;
-  min-width: 300px;
+#languages{
+  display: flex;
+  width: 270px;
+}
+
+.skill-img{
+  margin: 0px 25px;
+  width: 50px;
   height: auto;
+  overflow: hidden;
+}
+
+.skill-icons{
+  width: 500px;
+  max-height: 0;
+  overflow: hidden;
+  align-items: center;
+  background-color: black;
+}
+
+.skill-icons.show{
+  width: 500px;
+  height: auto;
+  max-height: 99999px;
+}
+
+.menu-skill{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  color: white;
 }
 
 .cardtitle{
