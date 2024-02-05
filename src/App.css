@@ -1,5 +1,4 @@
 hr {
-  border: 0;
   clear:both;
   width: 96%;               
   background-color:white;
@@ -9,11 +8,11 @@ hr {
 html {
   width: 100vw;
   height: 100vh;
-  background-color: black;
+  background-color: #8c8c73;
   letter-spacing: 0px;
-  font-family: Futura Light;
+  font-family: Brockmann;
+  font-weight: 100;
   color: white;
-  overflow-x: hidden;
   overflow-y: scroll;
 }
 
@@ -77,8 +76,22 @@ html {
   src: url('src/fonts/Futura Light.woff');
 }
 
+@font-face {
+  font-family: Manrope;
+  src: url('src/fonts/Manrope Regular.woff2');
+}
+
+@font-face {
+  font-family: Manrope Light;
+  src: url('src/fonts/Manrope-Light.woff2');
+}
+
+@font-face{
+  font-family: Brockmann;
+  src: url('src/fonts/Brockmann.woff');
+}
+
 .name {
-  font-family: Futura;
   letter-spacing: 8px;
   font-size: 40px;
   line-height: normal;
@@ -86,7 +99,6 @@ html {
 
 #infotitle{
   font-size: 40px;
-  font-family: Futura;
 }
 
 .activities{
@@ -143,21 +155,18 @@ html {
 }
 
 .cardtitle{
-  font-family: Futura;
   font-size: 36px;
   color: black;
   margin-top: 1em;
 }
 
 .carddescription{
-  font-family: Futura;
   font-size: 24px;
   color: black;
   margin-top: 1em;
 }
 
 .date{
-  font-family: Futura;
   font-size: 12px;
   color: black;
   margin-top: 1em;
@@ -255,4 +264,46 @@ html {
   height: 50px;
   margin-top: 10px;
   margin-bottom: 100px;
+}
+
+.contact-links{
+  background: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  width: 0%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 0.4s ease-in-out;
+  font-size: 260px;
+  float: left;
+  clear: both;
+  height: auto;
+  float: left;
+  clear: both;
+  margin: 50px 50px;
+  border-radius: 10px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.contact-links:hover {
+  width:100%;
+}
+.container-contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.container-contact h1{
+  float:left;  
+  clear:both; 
+}
+
+.container-contact h1:nth-of-type(2n){
+  float:right;  
 }

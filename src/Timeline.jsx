@@ -5,7 +5,7 @@ import 'react-vertical-timeline-component/style.min.css';
 export const Timeline = () => {
     return (
         <div>
-        <h1 style={{fontFamily: "Futura"}}>My Coding Journey</h1> 
+        <h1>My Coding Journey</h1> 
         <h2>Follow along my journey of learning</h2>
         <VerticalTimeline>
             <VerticalTimelineElement
