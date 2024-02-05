@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState} from 'react'
 import {motion} from 'framer-motion';
 
 export const Skills = () => {
@@ -28,20 +28,20 @@ export const Skills = () => {
         return setHoverMenu(selection);
     }
     return(
-        <div id = "skills-wrapper">
+        <div id = "skills-wrapper" style={{marginTop: "100px"}}>
             {/* idea: make it so that the cursor has a faint little blur behind it. Whenever the cursor hovers over some element here, change the blur's color (eg. if hovering over c#, the main color is purple, so change the blur color to purple*/}
-            <div style={{height: "100%", position: "relative", marginTop: "-40px"}}>
+            <div style={{height: "100%", position: "relative"}}>
                 <h1 style={{fontFamily: "Futura", letterSpacing: "8px", fontSize: "80px"}}>SKILLS</h1>
                 <h1 style={{width: "450px"}}>I'm always learning, but here are some of the skills that I've picked up along the way!</h1>
             </div>
-                <div>
+                <div style = {{display:"flex", justifyContent: "center"}}>
                     <div id = "menu-skills">
                     <motion.div layout onClick={() => toggleMenu(0)} style={{border: "0px", minWidth: "300px"}} 
                         onMouseEnter={() => toggleHover(0)}
                         onMouseLeave={() => toggleHover(null)}
                     >
                         <div style={{backgroundColor: openMenu === 0 ? "#dcc9a8" : "black", borderBottom: "0.5px solid white", borderRadius: openMenu === 0 ? "5px" : "0px", overflow: "hidden", transition: "background-color 0.25s linear"}}>
-                            <div className="menu-skill" layout="position" style={{fontFamily: "Futura", width: openMenu === 0 ? "95%" : "100%"}}>
+                            <div className="menu-skill" layout="position" style={{fontFamily: "Futura", width: openMenu === 0  ? "95%" : "100%"}}>
                                     <motion.h1 layout="position" style={{marginLeft: hoverMenu === 0 ? openMenu === 0 ? "36px" : "12px" :  openMenu === 0 ? "24px" : "0px"}}>Languages</motion.h1>
                                     {openMenu === 0 ? <motion.h1 layout="position" style={{fontFamily: "Futura"}}>-</motion.h1> : <motion.h1 layout="position" style={{fontFamily: "Futura"}}>+</motion.h1>}
                             </div>
