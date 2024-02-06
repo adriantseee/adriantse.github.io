@@ -3,7 +3,7 @@ export const Contact = () => {
         <div id="container-contact">
             <h2 style={{fontSize:"32px", fontFamily: "Futura"}}>Contact Me</h2>
             <p>adriantseee2@gmail.com</p>
-            <div className="contact-icons">
+            <div className="contact-wrapper">
                 <a href="tel:91908261">
                     <h1 className="contact-links">Whatsapp</h1>
                 </a>
