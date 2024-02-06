@@ -88,7 +88,7 @@ html {
 
 @font-face{
   font-family: Brockmann;
-  src: url('/Users/adriantse/Desktop/adriantseee.github.io/adriantse.github.io/public/fonts/Brockmann.woff');
+  src: url('./public/fonts/Brockmann.woff');
 }
 
 .name {
