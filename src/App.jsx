@@ -2,7 +2,6 @@ import './App.css'
 import { Hero } from './Hero.jsx'
 import { About } from './About.jsx'
 import {Skills} from './Skills.jsx'
-import { Timeline } from './Timeline.jsx'
 import { Contact } from './Contact.jsx'
 import React, { useEffect, useState} from 'react';
 import {motion} from 'framer-motion'
@@ -37,7 +36,6 @@ export const App = () => {
     <>
       <Hero />
       <About />
-      <Timeline/>
       <Skills />
       <Contact />
     </>
