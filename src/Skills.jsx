@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import {motion} from 'framer-motion';
+import imgUrl from '/Users/adriantse/Desktop/adriantseee.github.io/adriantse.github.io/src/assets/cpp.png'
 
 export const Skills = () => {
     const skills  = [
@@ -46,7 +47,7 @@ export const Skills = () => {
                                     {openMenu === 0 ? <motion.h1 layout="position">-</motion.h1> : <motion.h1 layout="position">+</motion.h1>}
                             </div>
                             <div className={openMenu === 0 ? 'skill-icons show' : 'skill-icons'} style={{backgroundColor: openMenu === 0 ? "#dcc9a8" : "#868686", transition: "background-color 0.25s linear"}}>
-                            <img className = "skill-img" src="/Users/adriantse/Desktop/adriantseee.github.io/adriantse.github.io/src/assets/cpp.png"/>
+                            <img className = "skill-img" src={imgUrl}/>
                             <img className = "skill-img" src="src/assets/csharp.png"/>
                             <img className = "skill-img" src="src/assets/swift.png"/>
                             <img className = "skill-img" src="src/assets/python.png"/>
