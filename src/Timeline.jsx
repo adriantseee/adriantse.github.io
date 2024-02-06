@@ -1,6 +1,7 @@
 import Spline from '@splinetool/react-spline';
 import { VerticalTimeline, VerticalTimelineElement} from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
+import React from 'react';
 
 export const Timeline = () => {
     return (

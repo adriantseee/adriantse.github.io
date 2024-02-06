@@ -5,7 +5,8 @@ import {Skills} from './Skills.jsx'
 import { Timeline } from './Timeline.jsx'
 import { Projects } from './Projects.jsx'
 import { Contact } from './Contact.jsx'
-import { Component } from 'react'
+import React from 'react';
+import ReactDOM from 'react-dom';
 
 export const App = () => {
   return (

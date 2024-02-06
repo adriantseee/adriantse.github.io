@@ -31,13 +31,13 @@ export const Skills = () => {
     return(
         <div id = "skills-wrapper" style={{marginTop: "100px"}}>
             {/* idea: make it so that the cursor has a faint little blur behind it. Whenever the cursor hovers over some element here, change the blur's color (eg. if hovering over c#, the main color is purple, so change the blur color to purple*/}
-            <div style={{height: "100%", marginTop: "-100px"}}>
-                <h1 style={{letterSpacing: "8px", fontSize: "120px"}}>SKILLS</h1>
-                <h1 style={{width: "540px", marginTop: "-50px"}}>I'm always learning, but here are some of the skills that I've picked up along the way!</h1>
+            <div style={{height: "100%", position: "relative"}}>
+                <h1 style={{letterSpacing: "8px", fontSize: "80px"}}>SKILLS</h1>
+                <h1 style={{width: "450px"}}>I'm always learning, but here are some of the skills that I've picked up along the way!</h1>
             </div>
                 <div style = {{display:"flex", justifyContent: "center"}}>
                     <div id = "menu-skills">
-                    <motion.div layout onClick={() => toggleMenu(0)} style={{border: "0px", minWidth: "800px"}} 
+                    <motion.div layout onClick={() => toggleMenu(0)} style={{border: "0px", minWidth: "300px"}} 
                         onMouseEnter={() => toggleHover(0)}
                         onMouseLeave={() => toggleHover(null)}
                     >

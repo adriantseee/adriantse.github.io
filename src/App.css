@@ -113,7 +113,6 @@ html {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: flex-start;
   margin: -100px 10% 40px 10%;
 }
 
@@ -251,11 +250,20 @@ html {
 }
 
 #container-contact{
+  margin-left: 40px;
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+}
+
+.contact-icons img{
+  margin-right: 50px;
+  width: 50px;
+  height: 50px;
+  margin-top: 10px;
+  margin-bottom: 100px;
 }
 
 .contact-links{
@@ -267,23 +275,14 @@ html {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: 0.4s ease-in-out;
-  font-size: 180px;
-  height: 250px;
-}
-
-.contact-wrapper a{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  font-size: 260px;
   float: left;
   clear: both;
-  margin-left: 450px;
-  max-height: 220px;
-}
-
-.contact-wrapper a:nth-of-type(2n){
-  float:right; 
-  margin-right: 450px; 
+  height: auto;
+  float: left;
+  clear: both;
+  margin: 50px 50px;
+  border-radius: 10px;
 }
 
 a{
@@ -298,4 +297,13 @@ a{
   justify-content: center;
   align-items: center;
   margin-top: 10%;
+}
+
+.container-contact h1{
+  float:left;  
+  clear:both; 
+}
+
+.container-contact h1:nth-of-type(2n){
+  float:right;  
 }
