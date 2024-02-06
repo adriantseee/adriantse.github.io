@@ -8,7 +8,7 @@ hr {
 html {
   width: 100vw;
   height: 100vh;
-  background-color: #8c8c73;
+  background-color: #181717;
   letter-spacing: 0px;
   font-family: Brockmann;
   font-weight: 100;
@@ -218,6 +218,12 @@ html {
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-end;
+  color: #a44444;
+}
+
+.fraction-project hr{
+  background-color: #a44444;
+  border: solid 1px #a44444;
 }
 
 .project-desc{
@@ -231,14 +237,6 @@ html {
   justify-content: center;
   align-items: center;
   margin-top: 1em;
-}
-
-.project-made-with{
-  width: 90%;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: baseline;
 }
 
 .project-important-info{
@@ -304,7 +302,7 @@ html {
   height: auto;
   float: left;
   clear: both;
-  margin: 10px 700px;
+  margin: 10px 400px;
   border-radius: 10px;
 }
 
