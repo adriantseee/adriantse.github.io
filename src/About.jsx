@@ -1,7 +1,7 @@
 export const About = () =>{
     return(
     <div>
-        <h2 id = "infotitle">A little about me...</h2>
+        <h2 id = "infotitle" style={{fontSize: "80px", letterSpacing: "8px", margin: "-100px 10% 40px 10%"}}>A little about me...</h2>
         <div className = "additionalinfo">
             <div id = "pfpcontainer">
                 <img id = "pfp" src = "/assets/pfp.png"/>

@@ -14,6 +14,21 @@ html {
   font-weight: 100;
   color: white;
   overflow-y: scroll;
+  z-index: 2;
+}
+
+.cursor{
+  background-color: transparent;
+  border: solid rgb(198, 87, 198);
+  border-width: 5px 5px;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 1;
 }
 
 .about{
@@ -144,6 +159,7 @@ html {
 
 .skill-icons.show{
   width: 500px;
+  padding-bottom: 10px;
   height: auto;
   max-height: 99999px;
 }
@@ -151,6 +167,7 @@ html {
 .menu-skill{
   display: flex;
   justify-content: space-between;
+  align-items: center;
   color: white;
 }
 
@@ -173,18 +190,38 @@ html {
 }
 
 .project{
-  background-color: white;
-  width: 720px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  width: 90%;
   height: auto;
   float: left;
   clear: both;
-  margin: 50px 50px;
-  border-radius: 10px;
+  margin-left: 100px;
+  margin-bottom: 300px;
+  margin-top: 300px;
+}
+
+.project img{
+  margin-left: 100px;
+  max-width: 1000px;
 }
 
 .project:nth-of-type(2n){
-  float: right;
-  margin-right: 50px;
+  flex-direction: row;
+}
+
+.fraction-project{
+  width: 120px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.project-desc{
+  width: 500px;
 }
 
 .project-info{
@@ -212,12 +249,6 @@ html {
   justify-content: flex-start;
   align-items: baseline;
   white-space: nowrap;
-}
-
-.project-description{
-  padding-left: 30px;
-  width: 100%;
-  color: black;
 }
 
 .project-name{
@@ -260,20 +291,20 @@ html {
 
 .contact-links{
   background: white;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 0.5px;
   -webkit-text-stroke-color: white;
   width: 0%;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  transition: 0.5s linear;
+  transition: 0.5s ease-in-out;
   font-size: 200px;
   float: left;
   clear: both;
   height: auto;
   float: left;
   clear: both;
-  margin: 10px 800px;
+  margin: 10px 700px;
   border-radius: 10px;
 }
 

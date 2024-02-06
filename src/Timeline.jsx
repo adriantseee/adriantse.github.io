@@ -6,8 +6,10 @@ import React from 'react';
 export const Timeline = () => {
     return (
         <div>
-        <h1>My Coding Journey</h1> 
-        <h2>Follow along my journey of learning</h2>
+        <div style={{margin: "-100px 10% 40px 10%"}}>
+            <h1 style={{letterSpacing: "8px", fontSize: "80px"}}>My Journey</h1> 
+            <h2>Follow along my journey of learning</h2>
+        </div>
         <VerticalTimeline>
             <VerticalTimelineElement
                 class = "element"
