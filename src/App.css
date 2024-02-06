@@ -88,7 +88,7 @@ html {
 
 @font-face{
   font-family: Brockmann;
-  src: url('src/fonts/Brockmann.woff');
+  src: url('/Users/adriantse/Desktop/adriantseee.github.io/adriantse.github.io/public/fonts/Brockmann.woff');
 }
 
 .name {
@@ -258,14 +258,6 @@ html {
   justify-content: flex-end;
 }
 
-.contact-icons img{
-  margin-right: 50px;
-  width: 50px;
-  height: 50px;
-  margin-top: 10px;
-  margin-bottom: 100px;
-}
-
 .contact-links{
   background: white;
   -webkit-text-stroke-width: 1px;
@@ -274,14 +266,14 @@ html {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  transition: 0.4s ease-in-out;
-  font-size: 260px;
+  transition: 0.5s linear;
+  font-size: 200px;
   float: left;
   clear: both;
   height: auto;
   float: left;
   clear: both;
-  margin: 50px 50px;
+  margin: 10px 800px;
   border-radius: 10px;
 }
 
@@ -292,6 +284,7 @@ a{
 .contact-links:hover {
   width:100%;
 }
+
 .container-contact{
   display: flex;
   justify-content: center;
@@ -299,11 +292,11 @@ a{
   margin-top: 10%;
 }
 
-.container-contact h1{
+.contacts a{
   float:left;  
   clear:both; 
 }
 
-.container-contact h1:nth-of-type(2n){
+.contacts a:nth-of-type(2n){
   float:right;  
 }
