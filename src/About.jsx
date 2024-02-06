@@ -4,7 +4,7 @@ export const About = () =>{
         <h2 id = "infotitle">A little about me...</h2>
         <div className = "additionalinfo">
             <div id = "pfpcontainer">
-                <img id = "pfp" src = "src/assets/pfp.png"/>
+                <img id = "pfp" src = "/assets/pfp.png"/>
             </div>
             <div className = "activities">
                 <p>Hobbies 🏀: Basketball, Baseball, Golf, Building Keyboards</p>

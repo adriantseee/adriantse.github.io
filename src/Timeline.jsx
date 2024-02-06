@@ -15,7 +15,7 @@ export const Timeline = () => {
                 contentArrowStyle={{ borderRight: '7px solid  white' }}
                 icon = {
                     <div className = "flex justify-center items-center w-full h-full">
-                        <img style={{width: "60px"}} className = "object-contain" src = "src/assets/points.png"/>
+                        <img style={{width: "60px"}} className = "object-contain" src = "/assets/points.png"/>
                     </div>
             }
             iconStyle={{background: "#000", borderThickness: "0px"}}
@@ -30,7 +30,7 @@ export const Timeline = () => {
             contentArrowStyle={{ borderRight: '7px solid  white' }}
             icon = {
                 <div className = "flex justify-center items-center w-full h-full">
-                    <img style={{width: "60px"}} className = "object-contain" src = "src/assets/points.png"/>
+                    <img style={{width: "60px"}} className = "object-contain" src = "/assets/points.png"/>
                 </div>
             }
             iconStyle={{background: "#000", borderThickness: "0px"}}
@@ -45,7 +45,7 @@ export const Timeline = () => {
             contentArrowStyle={{ borderRight: '7px solid  white' }}
             icon = {
                 <div className = "flex justify-center items-center w-full h-full">
-                    <img style={{width: "60px"}} className = "object-contain" src = "src/assets/points.png"/>
+                    <img style={{width: "60px"}} className = "object-contain" src = "/assets/points.png"/>
                 </div>
             }
             iconStyle={{background: "#000", borderThickness: "0px"}}
@@ -60,7 +60,7 @@ export const Timeline = () => {
             contentArrowStyle={{ borderRight: '7px solid  white' }}
             icon = {
                 <div className = "flex justify-center items-center w-full h-full">
-                    <img style={{width: "60px"}} className = "object-contain" src = "src/assets/points.png"/>
+                    <img style={{width: "60px"}} className = "object-contain" src = "/assets/points.png"/>
                 </div>
             }
             iconStyle={{background: "#000", borderThickness: "0px"}}

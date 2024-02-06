@@ -17,7 +17,7 @@ export const Projects = () => {
                 </div>
                 <h3 className = "project-description">Scrapes EBay Auctions for good deals on pokemon cards</h3>
                 <div className = "project-image-container">
-                    <img className = "project-image" src = "src/assets/snipes.png"/>
+                    <img className = "project-image" src = "/assets/snipes.png"/>
                 </div>
             </div>
             <div className = "project">
@@ -32,7 +32,7 @@ export const Projects = () => {
                 </div>
                 <h3 className = "project-description">Rock Paper Scissors with player data and animations</h3>
                 <div className = "project-image-container">
-                    <img className = "project-image" src = "src/assets/rps.png"/>
+                    <img className = "project-image" src = "/assets/rps.png"/>
                 </div>
             </div>
             <div className = "project">
@@ -48,7 +48,7 @@ export const Projects = () => {
                 </div>
                 <h3 className = "project-description">A fun christmas experience using gesture based AR technology.</h3>
                 <div className = "project-image-container">
-                    <img className = "project-image" src = "src/assets/tree.png"/>
+                    <img className = "project-image" src = "/assets/tree.png"/>
                 </div>
             </div>
             <div className = "project">
@@ -65,7 +65,7 @@ export const Projects = () => {
                 </div>
                 <h3 className = "project-description">Plays Pokemon Unite using image detection to automate tasks</h3>
                 <div className = "project-image-container">
-                    <img className = "project-image" src = "src/assets/unite.png"/>
+                    <img className = "project-image" src = "/assets/unite.png"/>
                 </div>
             </div>
         </div>
