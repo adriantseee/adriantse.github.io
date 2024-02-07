@@ -3,7 +3,7 @@ import {TypeAnimation} from 'react-type-animation'
 
 export const Hero = () => {
     return(
-        <div className = "about">
+        <div>
             <div className = "title">
                 <div>
                     <div className = "name">

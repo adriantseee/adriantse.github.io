@@ -1,11 +1,15 @@
+.expandable-skill{
+  width: 45vw;
+}
 hr {
   clear:both;
   width: 96%;               
-  background-color:white;
+  background-color:#a44444;
   height: 1px;
 }
 
 html {
+  color: white;
   width: 100vw;
   height: 100vh;
   background-color: #181717;
@@ -13,24 +17,9 @@ html {
   font-family: Brockmann;
   font-weight: 100;
   color: white;
-  overflow-y: scroll;
+  overflow-x: hidden;
   z-index: 2;
 }
-
-.cursor{
-  background-color: transparent;
-  border: solid rgb(198, 87, 198);
-  border-width: 5px 5px;
-  height: 32px;
-  width: 32px;
-  border-radius: 50%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  pointer-events: none;
-  z-index: 1;
-}
-
 .about{
   background: transparent;
   border: none;
@@ -52,10 +41,6 @@ html {
   min-width: 150px;
 }
 
-.about{
-  margin-bottom: 150px;
-}
-
 .infotitle{
   width: 100%;
 }
@@ -69,9 +54,10 @@ html {
   margin-left: -20em;
 }
 
-#pfp{
-  height: 50em;
-  width: auto;
+.about{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
 }
 
 #pfpcontainer{
@@ -116,11 +102,12 @@ html {
   font-size: 40px;
 }
 
-.activities{
-  display: flex;
-  flex-direction: column;
-  column-gap: 1px;
-  align-items: left;
+.about-wrapper h1{
+  font-size: 64px;
+  margin-left: 6vw;
+}
+
+.about-wrapper h2{
   font-size: 24px;
 }
 
@@ -128,7 +115,7 @@ html {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: -100px 10% 40px 10%;
+  margin: -100px 5% 40px 5%;
 }
 
 #menu-skills{
@@ -189,93 +176,54 @@ html {
   margin-top: 1em;
 }
 
-.project{
+.fraction{
+  position: absolute;
+  -webkit-transform:scale(2, 2); 
+  opacity: 0.5;
+}
+
+.fraction h1{
+  margin-top: 16vh;
+}
+
+.project-container{
+  height: 250vh;
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-around;
-  width: 90%;
-  height: auto;
-  float: left;
-  clear: both;
-  margin-left: 100px;
-  margin-bottom: 300px;
-  margin-top: 300px;
-}
-
-.project img{
-  margin-left: 100px;
-  max-width: 1000px;
-}
-
-.project:nth-of-type(2n){
-  flex-direction: row;
-}
-
-.fraction-project{
-  width: 120px;
-  height: 100px;
-  display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
-  align-items: flex-end;
-  color: #a44444;
+  margin-top: 5vh;
 }
 
-.fraction-project hr{
-  background-color: #a44444;
-  border: solid 1px #a44444;
-}
-
-.project-desc{
-  width: 500px;
+.project-desc h3{
+  position: absolute;
+  margin-top: -6vh;
 }
 
 .project-info{
-  color: black; 
+  display: flex;
+  justify-content: space-between;
+}
+
+.overlay-elements{
+  color: white;
+  max-width: 35vw;
+  margin-right: -18vw;
+}
+
+.project{
+  margin: 8vh 5vh;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  margin-top: 1em;
 }
 
-.project-important-info{
-  min-width: 200px;
-  max-width: 300px;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: baseline;
-  white-space: nowrap;
+.name-and-skills{
+  color:white;
+  margin-left: -18vw;
 }
-
-.project-name{
-  padding-left: 30px;
-  min-width: 180px;
-}
-
-.project-date{
-  padding-left: 30px;
-}
-
-.made-with-skill{
-  margin: 0px 30px;
-  margin-right: 30px;
-  display: flex;
-}
-
-.project-image-container{
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
-
-.project-image{
-  margin-top: 10%;
-  max-width: 80%;
-  max-height: 80%;
-  overflow: hidden;
-  margin-bottom: 10%;
+.project-desc{
+  width: 35vw;
 }
 
 #container-contact{
@@ -302,7 +250,7 @@ html {
   height: auto;
   float: left;
   clear: both;
-  margin: 10px 400px;
+  margin: 10px 500px;
   border-radius: 10px;
 }
 
@@ -328,4 +276,78 @@ a{
 
 .contacts a:nth-of-type(2n){
   float:right;  
+}
+
+
+@media screen and (width<500) {
+  .expandable-skill{
+    width: 150px;
+  }
+  .about{
+    background: transparent;
+    border: none;
+    margin-left: 3em;
+    margin-bottom: 500vh;
+  }
+}
+
+@media screen and (500px<=width<=768px) {
+  .about{
+    background: transparent;
+    border: none;
+    margin-left: 3em;
+    margin-bottom: 200vh;
+  }
+}
+
+@media only screen and (769px<=width<=1279px) {
+  .about{
+    background: transparent;
+    border: none;
+    margin-left: 3em;
+  }
+}
+
+@media only screen and (1920px>width>1280px) 
+{
+  .about{
+    background: transparent;
+    border: none;
+    margin-bottom: 120vh;
+  }
+}
+
+@media only screen and (width>1920px) 
+{
+  .about{
+    background: transparent;
+    border: none;
+    margin-left: 3em;
+  }
+  .expandable-skill{
+    width: 50vw;
+  }
+  
+  .project{
+    margin: 8vh 5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .project-desc{
+    width: 25vw;
+  }
+  .fraction{
+    position: absolute;
+    -webkit-transform:scale(2, 2); 
+    opacity: 0.5;
+  }
+
+  .fraction h1{
+    margin-top: 7.75vh;
+  }
+  html{
+  }
 }
