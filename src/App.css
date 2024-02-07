@@ -20,10 +20,12 @@ html {
   overflow-x: hidden;
   z-index: 2;
 }
+
 .about{
   background: transparent;
   border: none;
 }
+
 .model{
   height: 80vh;
   min-width: 600px;
@@ -50,26 +52,6 @@ html {
   justify-content: center;
 }
 
-@font-face {
-  font-family: Futura;
-  src: url('src/fonts/Futura.woff');
-}
-
-@font-face {
-  font-family: Futura Light;
-  src: url('src/fonts/Futura Light.woff');
-}
-
-@font-face {
-  font-family: Manrope;
-  src: url('src/fonts/Manrope Regular.woff2');
-}
-
-@font-face {
-  font-family: Manrope Light;
-  src: url('src/fonts/Manrope-Light.woff2');
-}
-
 @font-face{
   font-family: Brockmann;
   src: url('/public/fonts/Brockmann.woff');
@@ -79,10 +61,6 @@ html {
   letter-spacing: 8px;
   font-size: 40px;
   line-height: normal;
-}
-
-#infotitle{
-  font-size: 40px;
 }
 
 .about-wrapper h1{
@@ -99,12 +77,6 @@ html {
   flex-direction: row;
   justify-content: space-between;
   margin: -100px 5% 40px 5%;
-}
-
-#menu-skills{
-  min-width: 300px;
-  display: flex;
-  flex-direction: column;
 }
 
 #languages{
@@ -139,24 +111,6 @@ html {
   justify-content: space-between;
   align-items: center;
   color: white;
-}
-
-.cardtitle{
-  font-size: 36px;
-  color: black;
-  margin-top: 1em;
-}
-
-.carddescription{
-  font-size: 24px;
-  color: black;
-  margin-top: 1em;
-}
-
-.date{
-  font-size: 12px;
-  color: black;
-  margin-top: 1em;
 }
 
 .fraction{
@@ -271,38 +225,12 @@ a{
   margin-left: 10vw;
 }
 
-@media screen and (width<500) {
-  .expandable-skill{
-    width: 150px;
-  }
-  .about{
-    background: transparent;
-    border: none;
-    margin-bottom: 500vh;
-  }
-}
-
-@media screen and (500px<=width<=768px) {
-  .about{
-    background: transparent;
-    border: none;
-    margin-bottom: 200vh;
-  }
-}
-
-@media only screen and (769px<=width<=1279px) {
-  .about{
-    background: transparent;
-    border: none;
-  }
-}
-
 @media only screen and (1920px>width>1280px) 
 {
   .about{
     background: transparent;
     border: none;
-    margin-bottom: 120vh;
+    margin-bottom: 0vh;
   }
   #pfp{
     margin-left: 57vw; 
@@ -314,6 +242,7 @@ a{
   .about{
     background: transparent;
     border: none;
+    margin-bottom: -20vh;
   }
 
   .expandable-skill{
