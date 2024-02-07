@@ -1,12 +1,12 @@
 export const Contact = () => {
     return(
-        <div style={{marginTop: "300px"}}>
-        <div style={{marginLeft: "40px"}}>
+        <div className = "contact-container">
+        <div className = "call-to-action" style={{marginLeft: "10vw"}}>
             <h1 style={{letterSpacing: "8px", fontSize: "80px"}}>Like what you see?</h1>
-            <img style={{position: "absolute", marginLeft: "700px", marginTop: "-400px"}} id = "pfp" src = "/assets/pfp.png"></img>
-            <h1 style={{position: "absolute", letterSpacing: "8px", fontSize: "80px", marginLeft: "280px", marginTop: "-40px"}}><span>Let's get in </span><span style={{color: "#a44444"}}>touch</span></h1>
+            <img id = "pfp" src = "/assets/pfp2.png"></img>
+            <h1 style={{position: "absolute", letterSpacing: "8px", fontSize: "80px", marginLeft: "15vw", marginTop: "-3vh"}}><span>Let's get in </span><span style={{color: "#a44444"}}>touch</span></h1>
         </div>
-        <div id="container-contact" style={{marginTop:"400px"}}>
+        <div id="container-contact"style={{marginTop:"20vh"}}>
             <div className="contacts">
                 <a href="mailto:adriantseee2@gmail.com">
                     <h1 className="contact-links">Email</h1>

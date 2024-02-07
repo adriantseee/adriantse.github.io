@@ -3,8 +3,8 @@ export const Projects = () => {
         <div className = "project-container">
         <div className = "project">
         <div>
-                    <h2 style={{marginLeft: "20px"}}>PYTHON/BEAUTIFULSOUP4/DJANGO</h2>
-                    <h1 style={{fontSize: "200px", letterSpacing: "-16px", marginTop: "-50px", marginBottom: "-20px"}}>SNIPES</h1>
+                    <h2 style={{marginLeft: "1vw"}}>PYTHON/BEAUTIFULSOUP4/DJANGO</h2>
+                    <h1 className="project-name" style={{letterSpacing: "-16px", marginTop: "-50px", marginBottom: "-20px"}}>SNIPES</h1>
                 </div>
                 <div className="project-desc">
                     <div className="fraction" style={{color: "#a44444", marginTop: "-250px", marginLeft: "150px"}}>
@@ -17,8 +17,8 @@ export const Projects = () => {
         </div>
         <div className = "project">
         <div>
-                    <h2 style={{marginLeft: "20px"}}>SWIFT/SWIFTUI</h2>
-                    <h1 style={{fontSize: "200px", letterSpacing: "-16px", marginTop: "-50px", marginBottom: "-20px"}}>RPS</h1>
+                    <h2 style={{marginLeft: "1vw"}}>SWIFT/SWIFTUI</h2>
+                    <h1 className="project-name" style={{letterSpacing: "-16px", marginTop: "-50px", marginBottom: "-20px"}}>RPS</h1>
                 </div>
                 <div className="project-desc">
                     <div className="fraction" style={{color: "#a44444", marginTop: "-250px", marginLeft: "150px"}}>
@@ -31,8 +31,8 @@ export const Projects = () => {
         </div>
         <div className = "project">
         <div>
-                    <h2 style={{marginLeft: "20px"}}>SWIFT/ARKIT</h2>
-                    <h1 style={{fontSize: "200px", letterSpacing: "-16px", marginTop: "-50px", marginBottom: "-20px"}}>XMAS AR</h1>
+                    <h2>SWIFT/ARKIT</h2>
+                    <h1 className="project-name" style={{letterSpacing: "-16px", marginTop: "-50px", marginBottom: "-20px"}}>XMAS AR</h1>
                 </div>
                 <div className="project-desc">
                     <div className="fraction" style={{color: "#a44444", marginTop: "-250px", marginLeft: "150px"}}>
@@ -44,9 +44,9 @@ export const Projects = () => {
                 </div>
         </div>
         <div className = "project">
-        <div>
-                    <h2 style={{marginLeft: "20px"}}>PYTHON/TENSORFLOW/KERAS</h2>
-                    <h1 style={{fontSize: "200px", letterSpacing: "-16px", marginTop: "-50px", marginBottom: "-20px"}}>PIKAICHU</h1>
+            <div>
+                    <h2 style={{marginLeft: "1vw"}}>PYTHON/TENSORFLOW/KERAS</h2>
+                    <h1 className="project-name" style={{letterSpacing: "-16px", marginTop: "-50px", marginBottom: "-20px"}}>PIKAICHU</h1>
                 </div>
                 <div className="project-desc">
                     <div className="fraction" style={{color: "#a44444", marginTop: "-250px", marginLeft: "150px"}}>

@@ -91,8 +91,8 @@ export const Skills = () => {
                 </div>
             </div>
         </div>
-        <motion.div layout="position" style={{marginTop: "400px"}}>
-        <motion.div style={{marginLeft: "5vw"}}>
+        <motion.div layout="position">
+        <motion.div style={{marginLeft: "5vw", marginTop: "15vh"}}>
         <div style={{display: "flex", flexDirection: "row", alignItems: "center", justifyContent: 'flex-start'}}>
             <div>
                 <h1 style={{letterSpacing: "8px", fontSize: "80px"}}>SELECTED</h1>
@@ -105,8 +105,8 @@ export const Skills = () => {
                     <h1 style={{letterSpacing: "8px", fontSize: "80px", marginLeft: "80px"}}>WORKS</h1>
                 </div>
             </div>
-                </div>
-            <h2>I'm always creating new things and experimenting with new tools! Here are a few of my most recent projects</h2>
+        </div>
+        <h2 style={{marginTop:"-2vh"}}>I'm always creating new things and experimenting with new tools! Here are a few of my most recent projects</h2>
         </motion.div>
     </motion.div>
     </div>
