@@ -117,7 +117,7 @@ html {
   position: absolute;
   -webkit-transform:scale(2, 2); 
   opacity: 0.5;
-  margin-top: -30vh;
+  margin-top: -31.5vh;
 }
 
 .fraction h1{
@@ -265,6 +265,7 @@ a{
     position: absolute;
     -webkit-transform:scale(2, 2); 
     opacity: 0.5;
+    margin-right: 100vw;
   }
 
   .fraction h1{
@@ -291,9 +292,5 @@ a{
     flex-direction: column;
     justify-content: flex-end;
     margin-bottom: 10vh;
-  }
-  .fraction{
-    margin-right: 5vw;
-    margin-bottom: -1.5vh;
   }
 }
