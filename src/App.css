@@ -117,6 +117,7 @@ html {
   position: absolute;
   -webkit-transform:scale(2, 2); 
   opacity: 0.5;
+  margin-top: -30vh;
 }
 
 .fraction h1{
@@ -267,7 +268,7 @@ a{
   }
 
   .fraction h1{
-    margin-top: 7.75vh;
+    margin-bottom: -7.5vh;
   }
   .project-container{
     height: 250vh;

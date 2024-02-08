@@ -7,7 +7,7 @@ export const Projects = () => {
                     <h1 className="project-name" style={{letterSpacing: "-16px", marginTop: "-50px", marginBottom: "-20px"}}>SNIPES</h1>
                 </div>
                 <div className="project-desc">
-                    <div className="fraction" style={{color: "#a44444", marginTop: "-250px", marginLeft: "150px"}}>
+                    <div className="fraction" style={{color: "#a44444", marginLeft: "150px"}}>
                         <h1 style={{fontSize: "60px"}}>01</h1>
                         <h1 style={{fontSize: "100px", marginTop: "-100px", marginLeft: "60px"}}>/</h1>
                         <h1 style={{fontSize: "60px", marginTop: "-120px", marginLeft: "90px"}}>04</h1>
@@ -21,7 +21,7 @@ export const Projects = () => {
                     <h1 className="project-name" style={{letterSpacing: "-16px", marginTop: "-50px", marginBottom: "-20px"}}>RPS</h1>
                 </div>
                 <div className="project-desc">
-                    <div className="fraction" style={{color: "#a44444", marginTop: "-250px", marginLeft: "150px"}}>
+                    <div className="fraction" style={{color: "#a44444", marginLeft: "150px"}}>
                         <h1 style={{fontSize: "60px"}}>02</h1>
                         <h1 style={{fontSize: "100px", marginTop: "-100px", marginLeft: "60px"}}>/</h1>
                         <h1 style={{fontSize: "60px", marginTop: "-120px", marginLeft: "90px"}}>04</h1>
@@ -35,7 +35,7 @@ export const Projects = () => {
                     <h1 className="project-name" style={{letterSpacing: "-16px", marginTop: "-50px", marginBottom: "-20px"}}>XMAS AR</h1>
                 </div>
                 <div className="project-desc">
-                    <div className="fraction" style={{color: "#a44444", marginTop: "-250px", marginLeft: "150px"}}>
+                    <div className="fraction" style={{color: "#a44444", marginLeft: "150px"}}>
                         <h1 style={{fontSize: "60px"}}>03</h1>
                         <h1 style={{fontSize: "100px", marginTop: "-100px", marginLeft: "60px"}}>/</h1>
                         <h1 style={{fontSize: "60px", marginTop: "-120px", marginLeft: "90px"}}>04</h1>
@@ -49,7 +49,7 @@ export const Projects = () => {
                     <h1 className="project-name" style={{letterSpacing: "-16px", marginTop: "-50px", marginBottom: "-20px"}}>PIKAICHU</h1>
                 </div>
                 <div className="project-desc">
-                    <div className="fraction" style={{color: "#a44444", marginTop: "-250px", marginLeft: "150px"}}>
+                    <div className="fraction" style={{color: "#a44444", marginLeft: "150px"}}>
                         <h1 style={{fontSize: "60px"}}>04</h1>
                         <h1 style={{fontSize: "100px", marginTop: "-100px", marginLeft: "60px"}}>/</h1>
                         <h1 style={{fontSize: "60px", marginTop: "-120px", marginLeft: "90px"}}>04</h1>
